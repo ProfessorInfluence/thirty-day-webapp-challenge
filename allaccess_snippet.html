@@ -1,0 +1,58 @@
+<!-- All-Access Pass integration (shared across the 30-day webapp challenge) -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script>
+(function(){
+  var _sb = window.supabase.createClient(
+    'https://ecgovzhaxxjwfozhacin.supabase.co',
+    'sb_publishable_WcP53YaWQaclDkytiQa48g_CkStxkWd'
+  );
+  var STORE_KEY = 'allaccess_license_key';
+
+  async function tryUnlockFromStoredKey(){
+    var key = localStorage.getItem(STORE_KEY);
+    if(!key) return;
+    try{
+      var res = await _sb.rpc('check_license', { p_key: key });
+      if (res.data === true && typeof setPro === 'function') setPro();
+    }catch(e){}
+  }
+
+  function injectWidget(){
+    if(document.getElementById('allaccess-widget')) return;
+    if (typeof isPro === 'function' && isPro()) return;
+    var w = document.createElement('div');
+    w.id = 'allaccess-widget';
+    w.style.cssText = 'position:fixed;bottom:16px;right:16px;background:#14171b;border:1px solid #262b31;border-radius:12px;padding:12px 14px;font-family:Inter,system-ui,sans-serif;color:#f4f5f6;font-size:13px;z-index:9999;max-width:260px;box-shadow:0 8px 24px rgba(0,0,0,.4);';
+    w.innerHTML = '<div style="font-weight:700;margin-bottom:6px;">\u{1F511} Have an All-Access Pass?</div>' +
+      '<div style="display:flex;gap:6px;">' +
+      '<input id="allaccess-input" type="text" placeholder="Enter your key" style="flex:1;padding:7px 8px;border-radius:8px;border:1px solid #262b31;background:#1b1f24;color:#f4f5f6;font-size:12px;">' +
+      '<button id="allaccess-submit" style="padding:7px 10px;border-radius:8px;border:none;background:linear-gradient(135deg,#ff6a3d,#ffb020);color:#0b0d10;font-weight:700;font-size:12px;cursor:pointer;">Unlock</button>' +
+      '</div><div id="allaccess-msg" style="margin-top:6px;color:#9aa3ad;"></div>' +
+      '<div style="margin-top:6px;"><a href="https://shipvault.vercel.app" target="_blank" style="color:#ffb020;text-decoration:none;">Get a pass \u2192 unlock all 30 apps</a></div>' +
+      '<button id="allaccess-close" style="position:absolute;top:6px;right:8px;background:none;border:none;color:#9aa3ad;cursor:pointer;font-size:14px;">\u00d7</button>';
+    w.style.position = 'fixed';
+    document.body.appendChild(w);
+    document.getElementById('allaccess-close').onclick = function(){ w.style.display = 'none'; };
+    document.getElementById('allaccess-submit').onclick = async function(){
+      var val = document.getElementById('allaccess-input').value.trim();
+      var msg = document.getElementById('allaccess-msg');
+      if(!val) return;
+      msg.textContent = 'Checking...';
+      try{
+        var res = await _sb.rpc('check_license', { p_key: val });
+        if (res.data === true){
+          localStorage.setItem(STORE_KEY, val);
+          if (typeof setPro === 'function') setPro();
+          msg.textContent = '\u2705 Unlocked!';
+          setTimeout(function(){ w.style.display='none'; }, 1500);
+        } else {
+          msg.textContent = 'Key not found. Check and try again.';
+        }
+      }catch(e){ msg.textContent = 'Error checking key.'; }
+    };
+  }
+
+  tryUnlockFromStoredKey();
+  document.addEventListener('DOMContentLoaded', function(){ setTimeout(injectWidget, 300); });
+})();
+</script>
