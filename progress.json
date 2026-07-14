@@ -5,6 +5,19 @@
   "stripe_account_id": "acct_1TsH71K9O44grSYW",
   "github_owner": "ProfessorInfluence",
   "vercel_scope": "ryanrexchitty-9967",
+  "hub": {
+    "name": "ShipVault",
+    "live_url": "https://shipvault.vercel.app",
+    "github_repo": "https://github.com/ProfessorInfluence/shipvault",
+    "all_access_pass": {
+      "stripe_product_id": "prod_Ut1fOYIv6cbhTW",
+      "monthly_price_id": "price_1TtFc8GhivCkn0uRbSyX9bY7",
+      "monthly_payment_link": "https://buy.stripe.com/dRm4gz1H49Hf7KN7hm04805",
+      "lifetime_price_id": "price_1TtFc8GhivCkn0uRLHzAyekp",
+      "lifetime_payment_link": "https://buy.stripe.com/5kQfZhfxU2eNe9b1X204806",
+      "license_system": "supabase project ecgovzhaxxjwfozhacin, table all_access_licenses, RPCs check_license/get_license_by_session"
+    }
+  },
   "apps": [
     {
       "day": 1,
