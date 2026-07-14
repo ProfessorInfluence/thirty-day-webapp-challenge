@@ -6,35 +6,291 @@
   "github_owner": "ProfessorInfluence",
   "vercel_scope": "ryanrexchitty-9967",
   "apps": [
-    {"day": 1, "name": "StreakForge", "idea": "Habit streak tracker with visual calendar", "pro_feature": "Unlimited habits + CSV export", "price_usd": 5, "billing": "one_time", "status": "done", "github_repo": "https://github.com/ProfessorInfluence/streakforge", "live_url": "https://streakforge-murex.vercel.app", "stripe_product_id": "prod_UstyQVJyoqMa95", "stripe_price_id": "price_1Tt8AxGhivCkn0uR4J9RVZOA", "stripe_payment_link": "https://buy.stripe.com/bJe4gz1H406FfdffNS04802", "built_at": "2026-07-14"},
-    {"day": 2, "name": "InvoiceSnap", "idea": "Simple invoice generator with PDF export", "pro_feature": "Custom branding/logo + unlimited invoices", "price_usd": 9, "billing": "one_time", "status": "done", "github_repo": "https://github.com/ProfessorInfluence/invoicesnap", "live_url": "https://invoicesnap-smoky.vercel.app", "stripe_payment_link": "https://buy.stripe.com/5kQfZh3PcaLjghj0SY04803", "built_at": "2026-07-14"},
-    {"day": 3, "name": "QRStudio", "idea": "Custom styled QR code generator", "pro_feature": "Bulk generation + scan analytics", "price_usd": 7, "billing": "one_time", "status": "pending"},
-    {"day": 4, "name": "MeetingMeter", "idea": "Live meeting cost calculator by attendee salary", "pro_feature": "Team presets + Slack export", "price_usd": 6, "billing": "one_time", "status": "pending"},
-    {"day": 5, "name": "ResumeLite", "idea": "ATS-friendly resume builder", "pro_feature": "Premium templates + PDF export", "price_usd": 9, "billing": "one_time", "status": "pending"},
-    {"day": 6, "name": "LaunchCountdown", "idea": "Shareable countdown/launch page maker", "pro_feature": "Custom branding + no watermark", "price_usd": 5, "billing": "one_time", "status": "pending"},
-    {"day": 7, "name": "PaletteForge", "idea": "Color palette generator from uploaded image", "pro_feature": "Unlimited exports + palette history", "price_usd": 5, "billing": "one_time", "status": "pending"},
-    {"day": 8, "name": "FocusTide", "idea": "Pomodoro timer with ambient focus sounds", "pro_feature": "Premium soundscapes + stats", "price_usd": 4, "billing": "monthly", "status": "pending"},
-    {"day": 9, "name": "MarkdownPress", "idea": "Markdown to hosted blog post converter", "pro_feature": "Custom domain + unlimited posts", "price_usd": 6, "billing": "monthly", "status": "pending"},
-    {"day": 10, "name": "RecipeCost", "idea": "Recipe cost-per-serving calculator for food businesses", "pro_feature": "Menu export + ingredient library", "price_usd": 8, "billing": "one_time", "status": "pending"},
-    {"day": 11, "name": "RateRight", "idea": "Freelance hourly rate calculator", "pro_feature": "Proposal template export", "price_usd": 5, "billing": "one_time", "status": "pending"},
-    {"day": 12, "name": "BioLink", "idea": "Link-in-bio page builder", "pro_feature": "Analytics + custom themes", "price_usd": 4, "billing": "monthly", "status": "pending"},
-    {"day": 13, "name": "WedBudget", "idea": "Wedding budget planner", "pro_feature": "Vendor checklist export", "price_usd": 7, "billing": "one_time", "status": "pending"},
-    {"day": 14, "name": "PetLedger", "idea": "Pet expense tracker", "pro_feature": "Multi-pet profiles + vet reminders", "price_usd": 5, "billing": "one_time", "status": "pending"},
-    {"day": 15, "name": "SoloCRM", "idea": "Minimal CRM for solopreneurs", "pro_feature": "Unlimited contacts + follow-up reminders", "price_usd": 9, "billing": "monthly", "status": "pending"},
-    {"day": 16, "name": "LiftLog", "idea": "Workout log with progress charts", "pro_feature": "Progress photo timeline", "price_usd": 6, "billing": "one_time", "status": "pending"},
-    {"day": 17, "name": "SponsorRate", "idea": "Newsletter sponsorship rate calculator", "pro_feature": "Media kit export", "price_usd": 7, "billing": "one_time", "status": "pending"},
-    {"day": 18, "name": "PulseCheck", "idea": "Simple website uptime monitor", "pro_feature": "Multiple sites + email alerts", "price_usd": 6, "billing": "monthly", "status": "pending"},
-    {"day": 19, "name": "CardMe", "idea": "Digital business card page", "pro_feature": "Custom branding + vCard download", "price_usd": 4, "billing": "one_time", "status": "pending"},
-    {"day": 20, "name": "NameSpark", "idea": "Baby name generator with meanings", "pro_feature": "Shared shortlist collaboration", "price_usd": 3, "billing": "one_time", "status": "pending"},
-    {"day": 21, "name": "CardStack", "idea": "Spaced-repetition flashcard study app", "pro_feature": "Unlimited decks + import", "price_usd": 5, "billing": "monthly", "status": "pending"},
-    {"day": 22, "name": "RentFair", "idea": "Roommate rent-split calculator by room/income", "pro_feature": "Recurring reminders", "price_usd": 4, "billing": "one_time", "status": "pending"},
-    {"day": 23, "name": "ShowNotesAI", "idea": "Podcast show notes generator from transcript", "pro_feature": "Unlimited episodes", "price_usd": 8, "billing": "monthly", "status": "pending"},
-    {"day": 24, "name": "WaitlistOne", "idea": "Waitlist landing page builder with email capture", "pro_feature": "CSV export + custom domain", "price_usd": 6, "billing": "one_time", "status": "pending"},
-    {"day": 25, "name": "TipFair", "idea": "Restaurant tip-split calculator by hours worked", "pro_feature": "Saved teams", "price_usd": 4, "billing": "one_time", "status": "pending"},
-    {"day": 26, "name": "MoodJournal", "idea": "Daily journal with mood tracker", "pro_feature": "Mood analytics + export", "price_usd": 5, "billing": "monthly", "status": "pending"},
-    {"day": 27, "name": "ContractQuick", "idea": "Freelance contract template generator", "pro_feature": "E-signature link", "price_usd": 9, "billing": "one_time", "status": "pending"},
-    {"day": 28, "name": "CaptionForge", "idea": "Social media caption + hashtag generator", "pro_feature": "Unlimited generations", "price_usd": 5, "billing": "monthly", "status": "pending"},
-    {"day": 29, "name": "HomeVault", "idea": "Home inventory tracker for insurance", "pro_feature": "Photo attachments + PDF export", "price_usd": 6, "billing": "one_time", "status": "pending"},
-    {"day": 30, "name": "TripSplitter", "idea": "Trip expense splitter for groups", "pro_feature": "Unlimited trips + export", "price_usd": 5, "billing": "one_time", "status": "pending"}
+    {
+      "day": 1,
+      "name": "StreakForge",
+      "idea": "Habit streak tracker with visual calendar",
+      "pro_feature": "Unlimited habits + CSV export",
+      "price_usd": 5,
+      "billing": "one_time",
+      "status": "done",
+      "github_repo": "https://github.com/ProfessorInfluence/streakforge",
+      "live_url": "https://streakforge-murex.vercel.app",
+      "stripe_product_id": "prod_UstyQVJyoqMa95",
+      "stripe_price_id": "price_1Tt8AxGhivCkn0uR4J9RVZOA",
+      "stripe_payment_link": "https://buy.stripe.com/bJe4gz1H406FfdffNS04802",
+      "built_at": "2026-07-14"
+    },
+    {
+      "day": 2,
+      "name": "InvoiceSnap",
+      "idea": "Simple invoice generator with PDF export",
+      "pro_feature": "Custom branding/logo + unlimited invoices",
+      "price_usd": 9,
+      "billing": "one_time",
+      "status": "done",
+      "github_repo": "https://github.com/ProfessorInfluence/invoicesnap",
+      "live_url": "https://invoicesnap-smoky.vercel.app",
+      "stripe_payment_link": "https://buy.stripe.com/5kQfZh3PcaLjghj0SY04803",
+      "built_at": "2026-07-14"
+    },
+    {
+      "day": 3,
+      "name": "QRStudio",
+      "idea": "Custom styled QR code generator",
+      "pro_feature": "Bulk generation + scan analytics",
+      "price_usd": 7,
+      "billing": "one_time",
+      "status": "done",
+      "github_repo": "https://github.com/ProfessorInfluence/qrstudio",
+      "live_url": "https://qrstudio-rho.vercel.app",
+      "stripe_product_id": "prod_Ut1aGRvkrCHxln",
+      "stripe_price_id": "price_1TtFXBGhivCkn0uRHsnvhJR8",
+      "stripe_payment_link": "https://buy.stripe.com/6oUfZh0D0dXvfdf59e04804",
+      "built_at": "2026-07-14"
+    },
+    {
+      "day": 4,
+      "name": "MeetingMeter",
+      "idea": "Live meeting cost calculator by attendee salary",
+      "pro_feature": "Team presets + Slack export",
+      "price_usd": 6,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 5,
+      "name": "ResumeLite",
+      "idea": "ATS-friendly resume builder",
+      "pro_feature": "Premium templates + PDF export",
+      "price_usd": 9,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 6,
+      "name": "LaunchCountdown",
+      "idea": "Shareable countdown/launch page maker",
+      "pro_feature": "Custom branding + no watermark",
+      "price_usd": 5,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 7,
+      "name": "PaletteForge",
+      "idea": "Color palette generator from uploaded image",
+      "pro_feature": "Unlimited exports + palette history",
+      "price_usd": 5,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 8,
+      "name": "FocusTide",
+      "idea": "Pomodoro timer with ambient focus sounds",
+      "pro_feature": "Premium soundscapes + stats",
+      "price_usd": 4,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 9,
+      "name": "MarkdownPress",
+      "idea": "Markdown to hosted blog post converter",
+      "pro_feature": "Custom domain + unlimited posts",
+      "price_usd": 6,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 10,
+      "name": "RecipeCost",
+      "idea": "Recipe cost-per-serving calculator for food businesses",
+      "pro_feature": "Menu export + ingredient library",
+      "price_usd": 8,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 11,
+      "name": "RateRight",
+      "idea": "Freelance hourly rate calculator",
+      "pro_feature": "Proposal template export",
+      "price_usd": 5,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 12,
+      "name": "BioLink",
+      "idea": "Link-in-bio page builder",
+      "pro_feature": "Analytics + custom themes",
+      "price_usd": 4,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 13,
+      "name": "WedBudget",
+      "idea": "Wedding budget planner",
+      "pro_feature": "Vendor checklist export",
+      "price_usd": 7,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 14,
+      "name": "PetLedger",
+      "idea": "Pet expense tracker",
+      "pro_feature": "Multi-pet profiles + vet reminders",
+      "price_usd": 5,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 15,
+      "name": "SoloCRM",
+      "idea": "Minimal CRM for solopreneurs",
+      "pro_feature": "Unlimited contacts + follow-up reminders",
+      "price_usd": 9,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 16,
+      "name": "LiftLog",
+      "idea": "Workout log with progress charts",
+      "pro_feature": "Progress photo timeline",
+      "price_usd": 6,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 17,
+      "name": "SponsorRate",
+      "idea": "Newsletter sponsorship rate calculator",
+      "pro_feature": "Media kit export",
+      "price_usd": 7,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 18,
+      "name": "PulseCheck",
+      "idea": "Simple website uptime monitor",
+      "pro_feature": "Multiple sites + email alerts",
+      "price_usd": 6,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 19,
+      "name": "CardMe",
+      "idea": "Digital business card page",
+      "pro_feature": "Custom branding + vCard download",
+      "price_usd": 4,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 20,
+      "name": "NameSpark",
+      "idea": "Baby name generator with meanings",
+      "pro_feature": "Shared shortlist collaboration",
+      "price_usd": 3,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 21,
+      "name": "CardStack",
+      "idea": "Spaced-repetition flashcard study app",
+      "pro_feature": "Unlimited decks + import",
+      "price_usd": 5,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 22,
+      "name": "RentFair",
+      "idea": "Roommate rent-split calculator by room/income",
+      "pro_feature": "Recurring reminders",
+      "price_usd": 4,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 23,
+      "name": "ShowNotesAI",
+      "idea": "Podcast show notes generator from transcript",
+      "pro_feature": "Unlimited episodes",
+      "price_usd": 8,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 24,
+      "name": "WaitlistOne",
+      "idea": "Waitlist landing page builder with email capture",
+      "pro_feature": "CSV export + custom domain",
+      "price_usd": 6,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 25,
+      "name": "TipFair",
+      "idea": "Restaurant tip-split calculator by hours worked",
+      "pro_feature": "Saved teams",
+      "price_usd": 4,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 26,
+      "name": "MoodJournal",
+      "idea": "Daily journal with mood tracker",
+      "pro_feature": "Mood analytics + export",
+      "price_usd": 5,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 27,
+      "name": "ContractQuick",
+      "idea": "Freelance contract template generator",
+      "pro_feature": "E-signature link",
+      "price_usd": 9,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 28,
+      "name": "CaptionForge",
+      "idea": "Social media caption + hashtag generator",
+      "pro_feature": "Unlimited generations",
+      "price_usd": 5,
+      "billing": "monthly",
+      "status": "pending"
+    },
+    {
+      "day": 29,
+      "name": "HomeVault",
+      "idea": "Home inventory tracker for insurance",
+      "pro_feature": "Photo attachments + PDF export",
+      "price_usd": 6,
+      "billing": "one_time",
+      "status": "pending"
+    },
+    {
+      "day": 30,
+      "name": "TripSplitter",
+      "idea": "Trip expense splitter for groups",
+      "pro_feature": "Unlimited trips + export",
+      "price_usd": 5,
+      "billing": "one_time",
+      "status": "pending"
+    }
   ]
 }
