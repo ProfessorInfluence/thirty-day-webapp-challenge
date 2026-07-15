@@ -86,11 +86,11 @@
     },
     {
       "day": 5,
-      "name": "TrueRate",
-      "idea": "True hourly rate calculator for gig drivers (factors in gas, depreciation, tolls, insurance)",
-      "pro_feature": "Multi-vehicle profiles + CSV export for taxes",
-      "price_usd": 6,
-      "billing": "one_time",
+      "name": "SlotKeeper",
+      "idea": "Self-serve booking & deposit system for solo service pros (tutors, driving instructors, personal trainers, mobile groomers) - embeddable public booking widget, recurring weekly availability rules, Stripe deposit collection at booking time, automatic no-show policy enforcement, and automated email reminders",
+      "pro_feature": "Unlimited bookings + recurring session series + custom branding + SMS reminders",
+      "price_usd": 15,
+      "billing": "monthly",
       "status": "pending"
     },
     {
