@@ -76,7 +76,13 @@
       "pro_feature": "Team presets + Slack export",
       "price_usd": 6,
       "billing": "one_time",
-      "status": "pending"
+      "status": "done",
+      "github_repo": "https://github.com/ProfessorInfluence/meetingmeter",
+      "live_url": "https://meetingmeter-one.vercel.app",
+      "stripe_product_id": "prod_UtHOEcreebqrdu",
+      "stripe_price_id": "price_1TtUpfGhivCkn0uRo0dbo1xS",
+      "stripe_payment_link": "https://buy.stripe.com/7sYaEXetQf1zc137hm04807",
+      "built_at": "2026-07-15"
     },
     {
       "day": 5,
