@@ -16,7 +16,14 @@
       "lifetime_price_id": "price_1TtFc8GhivCkn0uRLHzAyekp",
       "lifetime_payment_link": "https://buy.stripe.com/5kQfZhfxU2eNe9b1X204806",
       "license_system": "supabase project ecgovzhaxxjwfozhacin, table all_access_licenses, RPCs check_license/get_license_by_session"
-    }
+    },
+    "rebuilt_at": "2026-07-15",
+    "pages": [
+      "streakforge",
+      "invoicesnap",
+      "qrstudio"
+    ],
+    "note": "Rebuilt per landing-page audit: single primary CTA, proof strip, personas, statically pre-rendered app grid, dedicated SEO page per live app, sitemap.xml/robots.txt, JSON-LD. Future days should add a matching /apps/<slug>.html page using apps/hub/apps/_template.html and a screenshot at apps/hub/assets/<slug>.png, then run apps/hub/bake.py before deploy."
   },
   "apps": [
     {
